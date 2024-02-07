@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
-    "lint:fix" : "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\""
+    "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "browserslist": {
     "production": [
@@ -38,7 +38,9 @@
   },
   "packageManager": "yarn@4.1.0",
   "devDependencies": {
+    "@craco/craco": "^7.1.0",
     "@types/eslint": "^8",
+    "craco-alias": "^3.0.1",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-react-app": "^7.0.1",
