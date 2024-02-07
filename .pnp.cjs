@@ -35,6 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:16.18.79"],\
           ["@types/react", "npm:18.2.55"],\
           ["@types/react-dom", "npm:18.2.18"],\
+          ["classnames", "npm:2.5.1"],\
           ["craco-alias", "npm:3.0.1"],\
           ["eslint", "npm:8.56.0"],\
           ["eslint-config-prettier", "virtual:550460d7dc02e857b2bb7fa186657d45c620b42ba0b13eabe61bf94e2ff8422045793de26f08fab6ab93f163047aad403d4b9342d26e079db5aa8665a3824ce8#npm:9.1.0"],\
@@ -45,6 +46,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:550460d7dc02e857b2bb7fa186657d45c620b42ba0b13eabe61bf94e2ff8422045793de26f08fab6ab93f163047aad403d4b9342d26e079db5aa8665a3824ce8#npm:18.2.0"],\
           ["react-scripts", "virtual:550460d7dc02e857b2bb7fa186657d45c620b42ba0b13eabe61bf94e2ff8422045793de26f08fab6ab93f163047aad403d4b9342d26e079db5aa8665a3824ce8#npm:5.0.1"],\
+          ["sass", "npm:1.70.0"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -6968,6 +6970,21 @@ const RAW_RUNTIME_STATE =
           ["readdirp", "npm:3.6.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:3.6.0", {\
+        "packageLocation": "../../.yarn/berry/cache/chokidar-npm-3.6.0-3c413a828f-10c0.zip/node_modules/chokidar/",\
+        "packageDependencies": [\
+          ["chokidar", "npm:3.6.0"],\
+          ["anymatch", "npm:3.1.3"],\
+          ["braces", "npm:3.0.2"],\
+          ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
+          ["glob-parent", "npm:5.1.2"],\
+          ["is-binary-path", "npm:2.1.0"],\
+          ["is-glob", "npm:4.0.3"],\
+          ["normalize-path", "npm:3.0.0"],\
+          ["readdirp", "npm:3.6.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["chownr", [\
@@ -7002,6 +7019,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/cjs-module-lexer-npm-1.2.3-9d788a3c14-10c0.zip/node_modules/cjs-module-lexer/",\
         "packageDependencies": [\
           ["cjs-module-lexer", "npm:1.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["classnames", [\
+      ["npm:2.5.1", {\
+        "packageLocation": "../../.yarn/berry/cache/classnames-npm-2.5.1-c7273f3423-10c0.zip/node_modules/classnames/",\
+        "packageDependencies": [\
+          ["classnames", "npm:2.5.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10500,6 +10526,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["immutable", [\
+      ["npm:4.3.5", {\
+        "packageLocation": "../../.yarn/berry/cache/immutable-npm-4.3.5-5958499808-10c0.zip/node_modules/immutable/",\
+        "packageDependencies": [\
+          ["immutable", "npm:4.3.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["import-fresh", [\
       ["npm:3.3.0", {\
         "packageLocation": "../../.yarn/berry/cache/import-fresh-npm-3.3.0-3e34265ca9-10c0.zip/node_modules/import-fresh/",\
@@ -12372,6 +12407,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:16.18.79"],\
           ["@types/react", "npm:18.2.55"],\
           ["@types/react-dom", "npm:18.2.18"],\
+          ["classnames", "npm:2.5.1"],\
           ["craco-alias", "npm:3.0.1"],\
           ["eslint", "npm:8.56.0"],\
           ["eslint-config-prettier", "virtual:550460d7dc02e857b2bb7fa186657d45c620b42ba0b13eabe61bf94e2ff8422045793de26f08fab6ab93f163047aad403d4b9342d26e079db5aa8665a3824ce8#npm:9.1.0"],\
@@ -12382,6 +12418,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:550460d7dc02e857b2bb7fa186657d45c620b42ba0b13eabe61bf94e2ff8422045793de26f08fab6ab93f163047aad403d4b9342d26e079db5aa8665a3824ce8#npm:18.2.0"],\
           ["react-scripts", "virtual:550460d7dc02e857b2bb7fa186657d45c620b42ba0b13eabe61bf94e2ff8422045793de26f08fab6ab93f163047aad403d4b9342d26e079db5aa8665a3824ce8#npm:5.0.1"],\
+          ["sass", "npm:1.70.0"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -16088,6 +16125,18 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/sanitize.css-npm-13.0.0-3424903b5d-10c0.zip/node_modules/sanitize.css/",\
         "packageDependencies": [\
           ["sanitize.css", "npm:13.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass", [\
+      ["npm:1.70.0", {\
+        "packageLocation": "../../.yarn/berry/cache/sass-npm-1.70.0-153257249c-10c0.zip/node_modules/sass/",\
+        "packageDependencies": [\
+          ["sass", "npm:1.70.0"],\
+          ["chokidar", "npm:3.6.0"],\
+          ["immutable", "npm:4.3.5"],\
+          ["source-map-js", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
