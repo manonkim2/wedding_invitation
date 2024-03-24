@@ -12,7 +12,7 @@ export interface Wedding {
   attendCount: number
 }
 
-interface Location {
+export interface Location {
   lat: number
   lng: number
   name: string
