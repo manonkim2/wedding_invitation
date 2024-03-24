@@ -3,7 +3,7 @@ export interface Wedding {
   date: string
   location: Location
   groom: Person & { parents: Person[] }
-  bridge: Person & { parents: Person[] }
+  bride: Person & { parents: Person[] }
   message: {
     intro: string
     invitation: string
