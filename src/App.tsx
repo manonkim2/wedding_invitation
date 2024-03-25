@@ -12,6 +12,7 @@ import Calendar from './components/sections/Calendar'
 import Contact from './components/sections/Contact'
 import Map from './components/sections/Map'
 import Share from './components/sections/Share'
+import AttendCountModal from './components/AttendCountModal'
 
 const cx = classNames.bind(styles)
 
@@ -82,6 +83,7 @@ function App() {
       <Contact groom={groom} bride={bride} />
       <ImageGallery image={galleryImages} />
       <Share groomName={groom.name} brideName={bride.name} date={date} />
+      <AttendCountModal wedding={wedding} />
     </div>
   )
 }

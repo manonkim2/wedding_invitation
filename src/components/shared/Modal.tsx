@@ -18,12 +18,12 @@ const Modal = ({
   open,
   title,
   body,
-  rightButtonLabel,
+  rightButtonLabel = '확인',
   onLeftButtonClick,
   onRightButtonClick,
-  leftButtonLabel,
+  leftButtonLabel = '닫기',
 }: ModalProps) => {
-  if (!open) {
+  if (open === false) {
     return null
   }
 
