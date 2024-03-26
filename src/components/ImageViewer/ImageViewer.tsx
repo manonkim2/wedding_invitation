@@ -1,3 +1,4 @@
+import generateImageUrl from '@/utils/generateImageUrl'
 import classNames from 'classnames/bind'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Dimmed from '../shared/Dimmed'
@@ -30,7 +31,22 @@ const ImageViewer = ({
       >
         {images.map((src, id) => (
           <SwiperSlide key={id}>
-            <img src={`/assets/image/${src}.jpeg`} alt="slide-img" />
+            <picture>
+              <source
+                srcSet={generateImageUrl({
+                  filename: src,
+                  format: 'webp',
+                })}
+                type="image/webp"
+              />
+              <img
+                src={generateImageUrl({
+                  filename: src,
+                  format: 'jpg',
+                })}
+                alt="이미지"
+              />
+            </picture>
           </SwiperSlide>
         ))}
       </Swiper>
