@@ -1,4 +1,8 @@
 @font-face {
   font-family: 'NanumSquareNeo-Variable';
-  src: url('../assets/font/NanumSquareNeo-Variable.ttf') format('truetype');
+  src:
+    url('../assets/font/subset-NanumSquareNeo-Variable.woff2') format('woff2'),
+    url('../assets/font/subset-NanumSquareNeo-Variable.woff') format('woff2'),
+    url('../assets/font/subset-NanumSquareNeo-Variable.ttf') format('truetype');
+  font-display: block;
 }
