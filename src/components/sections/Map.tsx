@@ -85,7 +85,7 @@ function WayToCome({
       <div className={cx('txt-label')}>{label}</div>
       <ul>
         {list.map((waytocome) => (
-          <li>{waytocome}</li>
+          <li className={cx('txt-sub')}>{waytocome}</li>
         ))}
       </ul>
     </div>

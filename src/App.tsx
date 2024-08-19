@@ -43,11 +43,11 @@ function App() {
       />
       <Invitation message={invitation} />
       <Calendar date={date} />
-      <Map location={location} />
       <Contact groom={groom} bride={bride} />
       <ImageGallery image={galleryImages} />
-      <Share groomName={groom.name} brideName={bride.name} date={date} />
       <AttendCountModal wedding={wedding} />
+      <Map location={location} />
+      <Share groomName={groom.name} brideName={bride.name} date={date} />
     </div>
   )
 }

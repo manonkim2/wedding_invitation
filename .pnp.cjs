@@ -6468,7 +6468,7 @@ const RAW_RUNTIME_STATE =
           ["autoprefixer", "virtual:18a326b560fea9e9b249b613636d8af10c58d8ffb6449e37450ce2039f87ae5797ae1436528ee0f58045437b10aa75a085dd00653ddcbf78628997c022d15f58#npm:10.4.17"],\
           ["@types/postcss", null],\
           ["browserslist", "npm:4.22.3"],\
-          ["caniuse-lite", "npm:1.0.30001584"],\
+          ["caniuse-lite", "npm:1.0.30001651"],\
           ["fraction.js", "npm:4.3.7"],\
           ["normalize-range", "npm:0.1.2"],\
           ["picocolors", "npm:1.0.0"],\
@@ -6487,7 +6487,7 @@ const RAW_RUNTIME_STATE =
           ["autoprefixer", "virtual:55ad89679f5e5b5a24d49aad444ac81e33688323023dd541e69550032459f2d66378286f0e11889a1f47949398ca7d1de535d28fbaaf2b0089f1997085c5e655#npm:10.4.17"],\
           ["@types/postcss", null],\
           ["browserslist", "npm:4.22.3"],\
-          ["caniuse-lite", "npm:1.0.30001584"],\
+          ["caniuse-lite", "npm:1.0.30001651"],\
           ["fraction.js", "npm:4.3.7"],\
           ["normalize-range", "npm:0.1.2"],\
           ["picocolors", "npm:1.0.0"],\
@@ -7007,7 +7007,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/browserslist-npm-4.22.3-c3c1809375-10c0.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.22.3"],\
-          ["caniuse-lite", "npm:1.0.30001584"],\
+          ["caniuse-lite", "npm:1.0.30001651"],\
           ["electron-to-chromium", "npm:1.4.657"],\
           ["node-releases", "npm:2.0.14"],\
           ["update-browserslist-db", "virtual:c3c1809375389507a1aeedf534fd79f857bb3c64ecc9e006768cadbfe62986d5f0c6d60929598771fa39a935d74fd2f97a9ee5a236e30da17e2b3a480f1ecae0#npm:1.0.13"]\
@@ -7144,7 +7144,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["caniuse-api", "npm:3.0.0"],\
           ["browserslist", "npm:4.22.3"],\
-          ["caniuse-lite", "npm:1.0.30001584"],\
+          ["caniuse-lite", "npm:1.0.30001651"],\
           ["lodash.memoize", "npm:4.1.2"],\
           ["lodash.uniq", "npm:4.5.0"]\
         ],\
@@ -7152,10 +7152,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001584", {\
-        "packageLocation": "../../.yarn/berry/cache/caniuse-lite-npm-1.0.30001584-90cbf5ad95-10c0.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001651", {\
+        "packageLocation": "../../.yarn/berry/cache/caniuse-lite-npm-1.0.30001651-976e4d30de-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001584"]\
+          ["caniuse-lite", "npm:1.0.30001651"]\
         ],\
         "linkType": "HARD"\
       }]\

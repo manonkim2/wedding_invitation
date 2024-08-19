@@ -22,7 +22,7 @@ const ImageGallery = ({ image }: { image: string[] }) => {
 
   return (
     <>
-      <Section title="사진첩">
+      <Section title={<span className={cx('txt-title')}>사진첩</span>}>
         <ul className={cx('wrap-images')}>
           {image.map((src, id) => (
             <li

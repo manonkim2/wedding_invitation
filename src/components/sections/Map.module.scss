@@ -1,14 +1,18 @@
 .wrap-header {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 
   .txt-title {
+    font-size: 16px;
+    font-weight: bold;
     margin-bottom: 16px;
   }
 
   .txt-subtitle {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 1.4;
   }
 }
 
@@ -21,17 +25,18 @@
   }
 
   .btn-find-way {
-    border: 1px solid var(--black);
-    padding: 8px 32px;
-    z-index: 2;
     position: absolute;
-    bottom: 24px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 2;
+    border: 1px solid var(--black);
+    padding: 8px 18px;
+    bottom: 12px;
     background-color: #fff;
     color: var(--black);
     text-decoration: none;
     border-radius: 32px;
+    font-size: 12px;
   }
 }
 
@@ -40,8 +45,13 @@
   line-height: 1.3;
 
   .txt-label {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
+  }
+
+  .txt-sub {
+    font-size: 14px;
+    line-height: 1.4;
   }
 }

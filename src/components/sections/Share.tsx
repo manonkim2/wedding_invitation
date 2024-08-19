@@ -64,7 +64,7 @@ function Share({ groomName, brideName, date }: ShareProps) {
   }
 
   return (
-    <Section title="공유하기">
+    <Section title={<span className={cx('txt-title')}>청첩장 공유하기</span>}>
       <div className={cx('wrap-share')}>
         <button onClick={handleShareKakao}>
           <IconKakao />
